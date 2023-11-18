@@ -1,0 +1,35 @@
+body{
+    background: #000000ef !important;
+}
+
+nav{
+    box-shadow: 0px 0px 5px gray,
+                0px 0px 6px gray;
+    padding: 20px 0px !important;       
+    position: sticky !important;
+    top: 0px;
+    left: 0px;     
+}
+
+#home{
+    height: 70vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.322),rgba(0, 0, 0, 0.445)), url('/media/images/sectionBg.jpg') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.home_text{
+    padding:70px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home_text h1{
+    color: rgb(236, 220, 190);
+    text-shadow: 2px 2px 4px rgb(36, 35, 35);
+}
+
+.home_text p{
+    font-size: 25px;
+    color: rgb(228, 215, 215);
+    text-shadow: 2px 2px 5px rgb(36, 35, 35);
+}
