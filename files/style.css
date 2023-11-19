@@ -8,13 +8,14 @@ nav{
     padding: 20px 0px !important;       
     position: sticky !important;
     top: 0px;
-    left: 0px;     
+    left: 0px;  
+    z-index: 1 !important;   
 }
 
 #home{
     height: 70vh;
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.322),rgba(0, 0, 0, 0.445)), url('/media/images/sectionBg.jpg') ;
+    background: linear-gradient(rgba(0, 0, 0, 0.473),rgba(0, 0, 0, 0.356)), url('/media/images/sectionBg.jpg') ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -32,4 +33,10 @@ nav{
     font-size: 25px;
     color: rgb(228, 215, 215);
     text-shadow: 2px 2px 5px rgb(36, 35, 35);
+}
+#about{
+    height: 60vh;
+}
+nav .icon{
+    color: antiquewhite;
 }
